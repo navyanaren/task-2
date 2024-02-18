@@ -14,7 +14,7 @@ function calculateGrade(scores, customScale = null) {
       }
     }
   }
-  const inputScores = [78, 90, 82, 99, 65];
+  const inputScores = [92, 65, 73, 97, 83];
   const finalGrade = calculateGrade(inputScores);
   console.log(`Final Grade: ${finalGrade}`);
 
